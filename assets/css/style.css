@@ -5,25 +5,82 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     width: 960px;
-    float: center
-     
+    margin: auto 0;
+    background-color: white;
+    border: #777777;
+    border-spacing: 8px     
     
 }
 h1 {
-    background-color: #ffffff;
-    border-color: #cccccc
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    color: #ffffff;
+    width: auto 0;
+    margin: auto;
+    
+    
 }
+
+h2 {
+    margin: auto 0;
+    background-color: white;
+    text-align: left;
+
+}
+
 footer {
     background-color: #666666
 }
 body {
     background-color: #ffffff;
     border-color: #dddddd;
-    width: 960px
+    width: 960px;
+    background-image: url(/Users/jackdempsey/Documents/Basic-Portfolio/assets/images/papyrus.png);
+    border-spacing: 8px
     
 }
 .image{
-    width: 100px;
-    height: 100px
-    float: left
+    width: 50%;
+    height: 50%
+    float: left;
+    margin: 25px
+    
+}
+
+.footer {
+    background-color: #666666;
+    color: #ffffff;
+    float: center;
+    width: 960px;
+    border-top: 8px solid #4aaaa5
+}
+.pimage {
+    float: center;
+    margin: 25px;
+    
+    
+}
+
+.form {
+    margin: 25px
+}
+
+#list-nav {
+    margin: auto;
+    padding: 5px 0;
+    list-style: none;
+    width: 960px;
+    float: left;
+    text-align: justify;
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    color: #ffffff;
+    border-bottom: #666666; border-bottom-style: solid
+
+}
+li {
+    display: inline;
+    float: left;
+    padding: 14px 16px
+
 }
