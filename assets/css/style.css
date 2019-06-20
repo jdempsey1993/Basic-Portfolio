@@ -8,8 +8,8 @@ p {
     margin: auto 0;
     background-color: white;
     border: #777777;
-    border-spacing: 8px     
-    
+    border-spacing: 8px;    
+    text-align: justify
 }
 h1 {
     background-color: #4aaaa5;
@@ -36,14 +36,16 @@ body {
     border-color: #dddddd;
     width: 960px;
     background-image: url(/Users/jackdempsey/Documents/Basic-Portfolio/assets/images/papyrus.png);
-    border-spacing: 8px
+    position: absolute
+   
+    
     
 }
 .image{
     width: 50%;
-    height: 50%
-    float: left;
-    margin: 25px
+    height: 50%;
+    margin: 25px;
+    background: white
     
 }
 
@@ -52,7 +54,9 @@ body {
     color: #ffffff;
     float: center;
     width: 960px;
-    border-top: 8px solid #4aaaa5
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
 }
 .pimage {
     float: center;
@@ -81,6 +85,10 @@ body {
 li {
     display: inline;
     float: left;
-    padding: 14px 16px
+    padding: 14px 16px;
+}
 
+.left {
+    float: left;
+    padding: 0 25px 25px 0
 }
