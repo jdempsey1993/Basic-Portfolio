@@ -57,6 +57,7 @@ body {
     border-top: 8px solid #4aaaa5;
     position: fixed;
     bottom: 0;
+    text-align: center
 }
 .pimage {
     float: center;
@@ -74,7 +75,7 @@ body {
     padding: 5px 0;
     list-style: none;
     width: 960px;
-    float: left;
+    float: right;
     text-align: justify;
     background-color: #4aaaa5;
     border-color: #cccccc;
